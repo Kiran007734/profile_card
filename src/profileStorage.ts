@@ -3,6 +3,7 @@ import type { StudentProfile } from './types'
 
 const STORAGE_KEY = 'studentProfile'
 const LEGACY_STORAGE_KEY = 'kiran-student-profile-v2'
+const LEGACY_PHOTO = 'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=900&q=88'
 
 function normalizeProfile(value: Partial<StudentProfile>): StudentProfile {
   const profile = { ...DEFAULT_PROFILE, ...value }
@@ -13,6 +14,7 @@ function normalizeProfile(value: Partial<StudentProfile>): StudentProfile {
     linkedin: profile.linkedin === 'https://www.linkedin.com/' ? DEFAULT_PROFILE.linkedin : profile.linkedin,
     email: profile.email === 'hello@kiran.dev' ? DEFAULT_PROFILE.email : profile.email,
     foreseRole: profile.foreseRole || DEFAULT_PROFILE.foreseRole,
+    photo: profile.photo === LEGACY_PHOTO ? DEFAULT_PROFILE.photo : profile.photo,
   }
 }
 

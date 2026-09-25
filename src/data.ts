@@ -2,8 +2,7 @@ import type { JourneyItem, ProjectItem, ProofItem, StudentProfile } from './type
 
 export const DEFAULT_PROFILE: StudentProfile = {
   name: 'Kiran Raj M',
-  photo:
-    'https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=900&q=88',
+  photo: '/kiranraj-m.webp',
   department: 'Artificial Intelligence & Data Science',
   year: '2nd Year',
   college: 'Sri Venkateswara College of Engineering',
