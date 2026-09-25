@@ -10,6 +10,7 @@ function normalizeProfile(value: Partial<StudentProfile>): StudentProfile {
   return {
     ...profile,
     name: profile.name === 'Kiran' ? DEFAULT_PROFILE.name : profile.name,
+    instagram: profile.instagram === 'https://www.instagram.com/kiran_archer/' ? DEFAULT_PROFILE.instagram : profile.instagram,
     github: profile.github === 'https://github.com/' ? DEFAULT_PROFILE.github : profile.github,
     linkedin: !profile.linkedin || profile.linkedin === 'https://www.linkedin.com/' ? DEFAULT_PROFILE.linkedin : profile.linkedin,
     email: profile.email === 'hello@kiran.dev' ? DEFAULT_PROFILE.email : profile.email,

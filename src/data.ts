@@ -28,7 +28,7 @@ export const DEFAULT_PROFILE: StudentProfile = {
     'NLP',
     'Computer Vision',
   ],
-  instagram: 'https://www.instagram.com/kiran_archer/',
+  instagram: 'https://www.instagram.com/kiran__archer/',
   github: 'https://github.com/Kiran007734',
   linkedin: 'https://www.linkedin.com/in/kiran-raj-9410443ba',
   email: 'kiranrajxarcher.2008@gmail.com',
