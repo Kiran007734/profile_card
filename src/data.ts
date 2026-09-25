@@ -30,7 +30,7 @@ export const DEFAULT_PROFILE: StudentProfile = {
   ],
   instagram: 'https://www.instagram.com/kiran_archer/',
   github: 'https://github.com/Kiran007734',
-  linkedin: '',
+  linkedin: 'https://www.linkedin.com/in/kiran-raj-9410443ba',
   email: 'kiranrajxarcher.2008@gmail.com',
   phone: '9445438297',
 }

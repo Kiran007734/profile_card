@@ -11,7 +11,7 @@ function normalizeProfile(value: Partial<StudentProfile>): StudentProfile {
     ...profile,
     name: profile.name === 'Kiran' ? DEFAULT_PROFILE.name : profile.name,
     github: profile.github === 'https://github.com/' ? DEFAULT_PROFILE.github : profile.github,
-    linkedin: profile.linkedin === 'https://www.linkedin.com/' ? DEFAULT_PROFILE.linkedin : profile.linkedin,
+    linkedin: !profile.linkedin || profile.linkedin === 'https://www.linkedin.com/' ? DEFAULT_PROFILE.linkedin : profile.linkedin,
     email: profile.email === 'hello@kiran.dev' ? DEFAULT_PROFILE.email : profile.email,
     foreseRole: profile.foreseRole || DEFAULT_PROFILE.foreseRole,
     photo: profile.photo === LEGACY_PHOTO ? DEFAULT_PROFILE.photo : profile.photo,
