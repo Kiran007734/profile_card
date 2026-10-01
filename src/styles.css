@@ -67,7 +67,7 @@ img { display: block; max-width: 100%; }
 .hero-title { margin: 0; font-size: clamp(5.4rem, 15.7vw, 17.8rem); font-weight: 800; letter-spacing: -.095em; line-height: .82; }
 .hero-title .reveal { width: max-content; }
 .hero-title span { display: block; }
-.hero-title-offset { margin-left: 15vw; }
+.hero-title-offset { margin-left: 15vw; line-height: .95; padding-bottom: .12em; }
 .hero-statement { margin: clamp(3rem, 7vw, 7rem) 0 0 max(0px, 16vw); }
 .hero-statement p { margin: 0; font-size: clamp(1rem, 1.6vw, 1.45rem); line-height: 1.2; letter-spacing: -.04em; }
 .hero-portrait-wrap { justify-self: end; width: min(100%, 31rem); }
